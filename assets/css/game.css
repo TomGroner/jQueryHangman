@@ -1,0 +1,33 @@
+body {
+    background: url("../images/stars.jpg") repeat #000;
+    color: #FFF;
+}
+
+#gameContainer {
+    margin: auto;
+    width: 700px;
+    overflow: auto;
+    border: dashed 3px #FF0;
+}
+
+#falcon {
+    float: left;
+}
+
+#gameInstructions {
+    display: inline-block;
+    float: right;  
+    padding: 10px;
+    background-color: #202020;
+    border-left: solid 3px #FFC000;
+}
+
+.instruction {
+    margin-top: 20px;
+    font: normal 24pt Impact;
+    text-align: center;
+}
+
+.focusField {
+    color: #FFC000;
+}
